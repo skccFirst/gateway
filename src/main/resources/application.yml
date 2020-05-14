@@ -84,7 +84,7 @@ spring:
           predicates:
             - Path=/captionServices
         - id: community
-          uri: http://caption:8080
+          uri: http://community:8080
           predicates:
             - Path=/communitySystems
       globalcors:
