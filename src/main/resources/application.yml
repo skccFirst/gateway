@@ -30,6 +30,10 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path=/membershipServices
+        - id: caption
+          uri: http://localhost:8086
+          predicates:
+            - Path=/captionServices
         - id: community
           uri: http://localhost:8087
           predicates:
@@ -75,6 +79,10 @@ spring:
           uri: http://membership:8080
           predicates:
             - Path=/membershipServices
+        - id: caption
+          uri: http://caption:8080
+          predicates:
+            - Path=/captionServices
         - id: community
           uri: http://caption:8080
           predicates:
